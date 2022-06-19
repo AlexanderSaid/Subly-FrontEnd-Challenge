@@ -7,7 +7,7 @@ export const editedDate = (date: string) => {
   const days = Math.floor(hours / 24);
   const months = Math.floor(days / 30);
   const years = Math.floor(months / 12);
-  console.log(diff, days, hours, minutes, months, years);
+
   if (years > 0) {
     return `over ${years} years ago`;
   }
