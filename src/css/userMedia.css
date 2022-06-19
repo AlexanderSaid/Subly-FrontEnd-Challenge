@@ -9,9 +9,10 @@
 }
 
 .media-container {
+  margin: 0 auto;
   width: 100%;
+  max-width: 900px;
   height: 100%;
-  overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -21,6 +22,7 @@
 
 .media-card-container {
   max-width: 400px;
+  min-width: 300px;
   width: 100%;
   height: 250px;
   display: flex;
@@ -37,6 +39,11 @@
 .media-card-container:hover {
   margin-top: -4px;
   filter: drop-shadow(0 2px 22px rgba(0, 0, 0, 0.3));
+}
+
+/* This style related to EditCover component and its style in editCover.css */
+.media-card-container:hover .edit-container.ready {
+  display: flex;
 }
 
 .media-card-container > * {
@@ -60,7 +67,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 0.25rem 0.25rem 0 0;
 }
+
 .status-container {
   height: 75px;
   display: flex;
@@ -79,6 +88,7 @@
 }
 
 .status-info {
-  color: gray;
+  color: grey;
   font-size: 0.75rem;
+  font-weight: 400;
 }

@@ -12,8 +12,12 @@ const ErrorCover = () => {
         </p>
       </div>
       <div className='buttons-container'>
-        <button className='btn btn-delete'>Delete file</button>
-        <button className='btn btn-report'>Report issue</button>
+        <button className='btn btn-delete' /* onClick functionality here */>
+          Delete file
+        </button>
+        <button className='btn btn-report' /* onClick functionality here */>
+          Report issue
+        </button>
       </div>
     </div>
   );

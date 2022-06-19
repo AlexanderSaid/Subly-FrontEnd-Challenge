@@ -22,7 +22,6 @@
 .transcribing-message {
   font-size: 1rem;
   font-weight: 600;
-  color: #333;
 }
 
 @keyframes animate-stripes {
@@ -37,7 +36,7 @@
 .progress-bar {
   height: 6px;
   width: 90%;
-  border-radius: 5px;
+  border-radius: 0.25rem;
 }
 .stripes {
   background: repeating-linear-gradient(

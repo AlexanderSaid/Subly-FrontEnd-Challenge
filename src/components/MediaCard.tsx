@@ -9,7 +9,11 @@ const MediaCard = ({ medium }: Medium) => {
   return (
     <div
       className='media-card-container'
-      style={medium.status === 'ready' ? { cursor: 'pointer' } : {}}>
+      style={
+        medium.status === 'ready'
+          ? { cursor: 'pointer' }
+          : { cursor: 'default' }
+      }>
       <MediaCardCover
         cover={medium.cover}
         languages={medium.languages}
