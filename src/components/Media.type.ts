@@ -4,7 +4,7 @@ export type MediumProps = {
   cover: string;
   languages: string[];
   status: string;
-  updated: string;
+  updatedAt: string;
 };
 
 export type MediaProps = {
