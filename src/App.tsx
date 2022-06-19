@@ -1,4 +1,3 @@
-import './App.css';
 import MediaController from './components/MediaController';
 function App() {
   return (

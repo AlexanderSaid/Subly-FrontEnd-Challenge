@@ -1,3 +1,14 @@
+:root {
+  --color-primary: #8a50f7;
+  --color-secondary: #6c757d;
+  --color-secondary-hover: #f1f1f1;
+  --color-error: #de0000;
+  --color-primary-hover: #520f9a;
+  --error-background: #fce6e6;
+  --text-primary: #1e1e1e;
+  --text-secondary: #5e5e5e;
+}
+
 *,
 *::before,
 *::after {
@@ -12,6 +23,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--text-primary);
 }
 
 code {
