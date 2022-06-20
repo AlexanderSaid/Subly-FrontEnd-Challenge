@@ -1,8 +1,19 @@
 # Subly Junior Front-End Developer Challenge
 
+
 In this challenge, I'm building some React components, using React, TypeScript, and provided API to fetch data from as main requirements.
 
+---
+
+
+## <p align='center'>Demo</p>
+
 <p align='center'><img src="public/subly-tech-test-demo.jpg" width='600' height='600'></p>
+
+You can have a look on the final result [here](https://subly-chanllenge.herokuapp.com/)
+
+---
+
 
 > For local setup
 >
