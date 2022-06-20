@@ -11,10 +11,12 @@ const ErrorCover = () => {
           Delete file to try again, and report issue if the problem persists.
         </p>
       </div>
+
       <div className='buttons-container'>
         <button className='btn btn-delete' /* onClick functionality here */>
           Delete file
         </button>
+
         <button className='btn btn-report' /* onClick functionality here */>
           Report issue
         </button>
@@ -22,4 +24,5 @@ const ErrorCover = () => {
     </div>
   );
 };
+
 export default ErrorCover;

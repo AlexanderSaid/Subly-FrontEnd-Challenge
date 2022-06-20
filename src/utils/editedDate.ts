@@ -1,4 +1,8 @@
-export const editedDate = (date: string) => {
+/**
+ * This function is to calculate the difference between last edited date and current date and return a relative time.
+ */
+
+const editedDate = (date: string) => {
   const currentDate = new Date();
   const updatedDate = new Date(date);
   const diff = currentDate.getTime() - updatedDate.getTime();
@@ -25,3 +29,5 @@ export const editedDate = (date: string) => {
   }
   return 'just now';
 };
+
+export default editedDate;

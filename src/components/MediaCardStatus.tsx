@@ -1,4 +1,4 @@
-import { editedDate } from '../utils/editedDate'; // a function that returns the edited date since last update
+import editedDate from '../utils/editedDate'; // a function that returns the edited date since last update
 
 type MediumStatus = {
   name: string;
@@ -20,4 +20,5 @@ const MediaCardStatus = ({ name, status, updated }: MediumStatus) => {
     </div>
   );
 };
+
 export default MediaCardStatus;

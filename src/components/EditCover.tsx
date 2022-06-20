@@ -1,7 +1,9 @@
 import '../css/editCover.css';
+
 type Status = {
   status: 'transcribing' | 'error' | 'ready';
 };
+
 const EditCover = ({ status }: Status) => {
   return (
     <div className={`edit-container ${status === 'ready' && 'ready'}`}>
@@ -17,10 +19,12 @@ const EditCover = ({ status }: Status) => {
             fill='#F2F2F2'></path>
         </svg>
       </button>
+
       <button className='edit-btn' /* onClick functionality here */>
         Edit
       </button>
     </div>
   );
 };
+
 export default EditCover;

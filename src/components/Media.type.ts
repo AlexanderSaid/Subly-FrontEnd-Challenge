@@ -1,3 +1,5 @@
+/** I tried to have a main types file, but it could be written within the components */
+
 export type MediumProps = {
   id: number;
   name: string;

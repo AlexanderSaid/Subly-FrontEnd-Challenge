@@ -5,6 +5,7 @@ import MediaCardStatus from './MediaCardStatus';
 type Medium = {
   medium: MediumProps;
 };
+
 const MediaCard = ({ medium }: Medium) => {
   return (
     <div
@@ -19,6 +20,7 @@ const MediaCard = ({ medium }: Medium) => {
         languages={medium.languages}
         status={medium.status}
       />
+
       <MediaCardStatus
         name={medium.name}
         status={medium.status}
@@ -27,4 +29,5 @@ const MediaCard = ({ medium }: Medium) => {
     </div>
   );
 };
+
 export default MediaCard;

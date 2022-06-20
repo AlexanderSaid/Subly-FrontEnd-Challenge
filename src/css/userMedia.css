@@ -1,15 +1,16 @@
 .user-media-wrapper {
   width: 100%;
-  min-height: 75vh;
+  min-height: 100vh;
   padding: 3rem;
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .media-container {
-  margin: 0 auto;
+  margin: 2rem auto;
   width: 100%;
   max-width: 900px;
   height: 100%;

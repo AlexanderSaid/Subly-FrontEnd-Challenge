@@ -8,4 +8,5 @@ const TranscribingBar = () => {
     </div>
   );
 };
+
 export default TranscribingBar;
