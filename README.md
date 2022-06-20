@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# Subly Junior Front-End Developer Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this challenge, I'm building some React components, using React, TypeScript, and provided API to fetch data from as main requirements.
 
-## Available Scripts
+<p align='center'><img src="public/subly-tech-test-demo.jpg" width='600' height='600'></p>
 
-In the project directory, you can run:
+> For local setup
+>
+> ```bash
+> // clone this repository
+> 
+> // install dependencies
+>
+>     npm install
+>
+> // run the app
+>
+>     npm start
+> ```
 
-### `npm start`
+## File Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    - `public`:
+         `index.html`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    - `src`:
+        - `components`:
+            - (Related components)
+        - `css`:
+            - (Related css)
+        - `utils`:
+            - (Helper functions)
+        - (Main files)
 
-### `npm test`
+### Thinking and Working Process
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- After reading the challenge description, the main challenge was to work with TypeScript, as I have no idea how to use it in the first place.
+So the first step was to learn some essential TypeScript concepts, and how to use it with React.
 
-### `npm run build`
+- During the first step, I discovered the [SWR](https://swr.vercel.app/) library, so I decided to use it to fetch data from the API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The next step was to sketch out the components and the structure.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- To have some good references I made some research on the [Subly](https://www.getsubly.com/) website.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As you can expect, the most challenging part was to learn and use TypeScript considering the time, which effects the way I structure my code.
+I would prefer to fetch the data in root component, but I faced some issues with it and did it in the main component instead.
 
-### `npm run eject`
+The other challenge was deciding how to structure the files considering the project's size, and if it was worth to create a `context` folder for global state, pages folder, and split the components into separate folders, but at end I decided to keep it simple and by having components, css and utils folders.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The last thing to mention is that I didn't use [React Router](https://reactrouter.com/), so instead having the main component in the page folder, I just keep it as a controller component in the components folder, and didn't use links in my components.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Unfortunately, the lack of time prevented me from creating some tests for the components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This was my experience with the challenge, and I hope you will like it.
