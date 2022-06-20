@@ -19,7 +19,9 @@ You can have a look on the final result [here](https://subly-chanllenge.herokuap
 >
 > ```bash
 > // clone this repository
-> 
+>
+>     git clone git@github.com:AlexanderSaid/Subly-FrontEnd-Challenge.git
+>     
 > // install dependencies
 >
 >     npm install
@@ -31,17 +33,22 @@ You can have a look on the final result [here](https://subly-chanllenge.herokuap
 
 ## File Structure
 
+```bash
     - `public`:
-         `index.html`
+         index.html
 
     - `src`:
         - `components`:
             - (Related components)
+            
         - `css`:
             - (Related css)
+            
         - `utils`:
             - (Helper functions)
+            
         - (Main files)
+```
 
 ### Thinking and Working Process
 
